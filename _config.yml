@@ -30,7 +30,7 @@ rss: rss
 # New fields not defaulted by jekyll-new with the minima theme (i.e. these are custom fields)
 # Add a copyright. A copyright symbol and year will be added automatically
 # copyright: web domain + ext.
-copyright: 'wooseokchoi.com'
+copyright: '최우석'
 
 # Build settings
 # Removed minima theme as it is now a regular theme. (i.e. you're no longer using a gem-based theme; you're using a 'regular' theme.)

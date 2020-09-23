@@ -19,18 +19,18 @@
   font-weight: 570;
   line-height: 3.1rem;
   letter-spacing: -0.25rem;
-  color: #AF5E59;
+  color: #386B9D;
   margin-left: auto;
   margin-right:auto;
-  font-family: Offside;
-
+  font-family: Josefin Slab;
+  font-weight: 600;
   &,
   &:visited {
-    color: #AF5E59;  }
+    color: #386B9D;  }
 }
 
 .site-title:hover {
-  text-decoration: underline;
+  text-decoration: none;
 }
 
 /* navbar overhaul! previous code was removed */
@@ -42,6 +42,8 @@
   margin-bottom: 0.001rem; // this is just a margin value so that border can be added
   // border-bottom: 2.5px dotted $grey-color;
   display: table;
+  font-family: Josefin Slab;
+  font-weight: 200;
 }
 
 
@@ -203,6 +205,7 @@ since its the right-tail end of the nav bar */
  */
 .post-header {
   margin-bottom: $spacing-unit;
+  color: #F3EFEC;
 }
 
 .post-title {

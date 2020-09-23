@@ -1,0 +1,17 @@
+---
+layout: post
+title:  "Effects of Remote Monitoring of Blood Pressure in Management of Urban Hypertensive Patients: A Systematic Review and Meta-Analysis"
+date:   2020-06-03 02:36:11 +0900
+category: publications
+author: 'Woo Seok Choi, Jin Hyuk Choi, Jiwon Oh, In-Soo Shin, Jae-Suk Yang'
+---
+
+Remote home blood pressure monitoring (RBPM) has been shown as effective in managing hypertension in underserved areas. Effects on urban patients, who are more easily provided with high-quality medical services, are still unclear.
+
+We systematically review previously published randomized controlled trials on the effect of RBPM for urban hypertensive patients.
+
+[Link to article](https://www.liebertpub.com/doi/abs/10.1089/tmj.2019.0028)
+
+#### Keywords
+
+[blood pressure](https://www.liebertpub.com/keyword/Blood+Pressure), [home blood pressure](https://www.liebertpub.com/keyword/Home+Blood+Pressure), [hypertension](https://www.liebertpub.com/keyword/Hypertension), [remote monitoring](https://www.liebertpub.com/keyword/Remote+Monitoring), [telemonitoring](https://www.liebertpub.com/keyword/Telemonitoring), [telemedicine](https://www.liebertpub.com/keyword/Telemedicine), [urban](https://www.liebertpub.com/keyword/Urban), [city](https://www.liebertpub.com/keyword/City), [randomized controlled trial](https://journals.sagepub.com/keyword/Delphi+Study)
