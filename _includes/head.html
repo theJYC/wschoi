@@ -1,0 +1,26 @@
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- self-hosting Google Fonts is the right thing to do! this font was used for korean text -->
+  <link rel="preload" as="font" type="font/woff"
+  href="./fonts/gamja-flower-v8-latin-regular.woff" crossorigin>
+  <link rel="preload" as="font" type="font/woff2"
+  href="./fonts/gamja-flower-v8-latin-regular.woff2" crossorigin>
+  <!-- end of self-hosted Google Fonts code -->
+
+  <!-- self-hosting round 2. this font was used for english text -->
+  <link rel="preload" as="font" type="font/woff"
+  href="./fonts/josefin-slab-v11-latin-600.woff" crossorigin>
+  <link rel="preload" as="font" type="font/woff2"
+  href="./fonts/josefin-slab-v11-latin-600.woff2" crossorigin>
+
+  <!-- end of self-hosted Google Fonts code -->
+
+  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}">
+  {%- feed_meta -%}
+  {%- if jekyll.environment == 'production' and site.google_analytics -%}
+    {%- include google-analytics.html -%}
+  {%- endif -%}
+</head>

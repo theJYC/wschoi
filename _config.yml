@@ -1,0 +1,59 @@
+# quick reference for YAML syntax:
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
+# Site settings
+# Used for jinyoung.xyz customisation.
+
+# These settings are accessed via {{ site.title }}, {{ site.email }}, etc. in the HTML files
+
+# Any custom variable is supported also, and they are accessible
+# in the templates via {{ site.myvariable }}.
+
+title: wooseok
+email: ikeyu@hanmail.net
+description: >- # this means to ignore newlines until "baseurl:"
+
+baseurl: '' # the subpath of your site, e.g. /blog
+url: "https://jinyoungch0i.github.io" # the base hostname & protocol for jinyoung.xyz, e.g. http://example.com
+# twitter_username: n/a
+# github_username: jinyoungch0i
+
+# Fields minima uses, but are not defaulted with the jekyll new command.
+# Author is the default for posts, the Atom feed, and is used in the footer.
+author: Woo Seok Choi
+# linkedin_username: jinyoungch0i
+show_excerpts: true
+# stackoverflow_username: 14270947/jin-young-choi
+rss: rss
+
+# New fields not defaulted by jekyll-new with the minima theme (i.e. these are custom fields)
+# Add a copyright. A copyright symbol and year will be added automatically
+# copyright: web domain + ext.
+copyright: 'wooseokchoi.com'
+
+# Build settings
+# Removed minima theme as it is now a regular theme. (i.e. you're no longer using a gem-based theme; you're using a 'regular' theme.)
+# theme: minima
+plugins:
+  - jekyll-feed
+
+# Exclude from processing.
+# The following items will not be processed, by default.
+# Any item listed under the `exclude:` key here will be automatically added to
+# the internal "default list".
+#
+# Excluded items can be processed by explicitly listing the directories or
+# their entries' file path in the `include:` list.
+#
+# exclude:
+#   - .sass-cache/
+#   - .jekyll-cache/
+#   - gemfiles/
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules/
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/

@@ -1,0 +1,254 @@
+/* some parts modified but no more immediate modifications warranted 09/11/20 JYC */
+
+/**
+ * Site header
+ */
+.site-header {
+
+  min-height: $spacing-unit * 1.865;
+  text-align: center;
+  margin-left: auto;
+  margin-right:auto;
+
+  // Positioning context for the mobile navigation icon
+  position: relative;
+}
+
+.site-title {
+  font-size: 3.25rem;
+  font-weight: 570;
+  line-height: 3.1rem;
+  letter-spacing: -0.25rem;
+  color: #AF5E59;
+  margin-left: auto;
+  margin-right:auto;
+  font-family: Offside;
+
+  &,
+  &:visited {
+    color: #AF5E59;  }
+}
+
+.site-title:hover {
+  text-decoration: underline;
+}
+
+/* navbar overhaul! previous code was removed */
+.navigation-bar {
+  list-style: none;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0.625rem;
+  margin-bottom: 0.001rem; // this is just a margin value so that border can be added
+  // border-bottom: 2.5px dotted $grey-color;
+  display: table;
+}
+
+
+/*nav link is for journey, longreads, and </>,
+essentially all the pages that pop up in navigation bar
+that is NOT the last one on the list */
+.nav-link {
+  margin-right: 1rem;
+  color: #4E6E4E;
+  font-size: 1.40rem;
+  border-bottom: 2.5px dotted $grey-color;
+
+
+  &:hover {
+  color: #000;
+  }
+
+  // &:active {
+  //   color: #000;
+  // }
+
+}
+
+/* this to be used for | journey | longreads | </> | photos for navbar, once mediaquery issue is dealt with and nav bar and title shrinks like the h1 h2 h3 tags */
+.nav-spacer {
+  color: #4E6E4E;
+  font-size: .30rem;
+  margin-left: auto;
+  margin-right: auto;
+  display: inline-grid;
+}
+
+  // a {
+  //   @include relative-font-size(1.25);
+
+  //   @include media-query($on-laptop) {
+  //     @include relative-font-size(1.125);
+  //   }
+  // }
+
+
+
+/*tail link is currently for 'pics',
+since its the right-tail end of the nav bar */
+.tail-link {
+  color: #4E6E4E;
+  font-size: 1.40rem;
+  border-bottom: 2.5px dotted $grey-color;
+
+
+  &:hover {
+    color: #000;
+  }
+
+  // &:active {
+  //   color: #000;
+  // }
+
+  // a {
+  //   @include relative-font-size(1.25);
+
+  //   @include media-query($on-laptop) {
+  //     @include relative-font-size(1.125);
+  //   }
+  // }
+
+}
+
+// @media screen and (max-width:600px) {
+//   .nav-link {
+//     margin-right: 14px;
+//     font-size: 18px;
+//   }
+//   .tail-link {
+//     font-size: 18px;
+//   }
+
+/**
+ * Site footer
+ */
+.site-footer {
+  // border-top: .75px solid $grey-color-light;
+  // border-bottom: 1rem solid $background-color;
+  padding-bottom: 0px;
+  padding-top: 1px;
+}
+
+.footer-heading {
+  @include relative-font-size(1.125);
+  margin-bottom: $spacing-unit / 2;
+}
+
+/* social tags positioning! */
+
+.copyright-note {
+  display: table;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 15px;
+  border-top: 2.5px dotted $grey-color;
+}
+
+
+.contact-list {
+  list-style: none;
+}
+
+/**
+ * Page content
+ */
+.page-content {
+  margin-left: auto;
+  margin-right: auto;
+  flex: 1;
+  // border-bottom: 2.5px dotted $grey-color;
+}
+
+.page-heading {
+  font-size: 2em;
+  line-spacing: 0px;
+  line-height: 1;
+  margin-top: 15px; /* this will need to be modified once <header> is centered for mobile-responsiveness */
+}
+
+.post-list-heading {
+  font-size: 2em;
+  line-spacing: 0px;
+  line-height: 1;
+}
+
+.post-list {
+  margin-left: 0;
+  list-style: none;
+
+  > li {
+    margin-bottom: $spacing-unit;
+  }
+}
+
+.post-meta {
+  font-size: $small-font-size;
+  color: $grey-color;
+}
+
+.post-link {
+  color: #5759A7;
+  display: block;
+  @include relative-font-size(1.5);
+}
+
+
+.post-link:hover {
+  color: #353535;
+  text-decoration: none;
+  }
+
+/**
+ * Posts
+ */
+.post-header {
+  margin-bottom: $spacing-unit;
+}
+
+.post-title {
+  @include relative-font-size(2.625);
+  letter-spacing: 0px;
+  line-height: 1;
+
+  @include media-query($on-laptop) {
+    @include relative-font-size(2.25);
+  }
+}
+
+/* these below are good! not to be touched */
+
+.post-content {
+  margin-bottom: $spacing-unit;
+  h2 {
+    @include relative-font-size(2);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.75);
+    }
+  }
+
+  h3 {
+    @include relative-font-size(1.625);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.375);
+    }
+  }
+
+  h4 {
+    @include relative-font-size(1.25);
+
+    @include media-query($on-laptop) {
+      @include relative-font-size(1.125);
+    }
+  }
+}
+
+/*this border highlight was experimented on but decided not to go forward with it. saved for potential later use 9/17 //
+
+.bar-border-highlight {
+  border: 0.117rem dashed #4E6E4E;
+  border-radius: 5px;
+  padding: 0.05rem 0.25rem;
+}
+*/
